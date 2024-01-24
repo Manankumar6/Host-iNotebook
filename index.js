@@ -10,12 +10,12 @@ app.use(express.json())
 app.use('/api/auth', require('./routes/auth'))
 app.use('/api/notes', require('./routes/notes'))
 const path = require('path')
-app.use(express.static(path.join(__dirname,'../client/build')))
+app.use(express.static(path.join(__dirname,'client','build')))
 
 
 //Available Routes
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'../client/build/index.html'))
+  res.sendFile(path.join(__dirname,'client','build','index.html'))
 })
 
 app.listen(port, () => {
