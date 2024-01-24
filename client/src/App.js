@@ -33,7 +33,7 @@ function App() {
     <div className="container">
 
     <Routes basename={process.env.PUBLIC_URL}>
-    <Route exact path='host-i-note-book.vercel.app/' element={<Home showAlert={showAlert} />} />
+    <Route exact path='' element={<Home showAlert={showAlert} />} />
     <Route exact path='/about' element={<About />} />
     <Route exact path='/login' element={<Login showAlert={showAlert}/>} />
     <Route exact path='/signup' element={<Signup showAlert={showAlert} />} />
