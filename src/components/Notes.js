@@ -22,7 +22,7 @@ const Notes = (props) => {
             // eslint-disable-next-line
             navigate('/login')
         }
-    }, [])
+    },[])
 
     const ref = useRef(null)
     const refClose = useRef(null)
