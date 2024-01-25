@@ -3,7 +3,7 @@ import NoteContext from "./noteContext";
 
 
 const NoteState = (props) => {
-  const host = 'http://localhost:5000'
+  const host = 'https://host-i-notebook.vercel.app'
   const noteintiial = []
   const [notes,setNotes] = useState(noteintiial)
   // Get All Notes
