@@ -42,7 +42,6 @@ function App() {
     </div>
 
   </NoteState>
-  <h1>Hello World</h1>
     </>
   );
 }
